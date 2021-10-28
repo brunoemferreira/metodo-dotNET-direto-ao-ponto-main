@@ -33,6 +33,14 @@ namespace NetDiretoAoPonto.EstruturasRepeticao
                 contador++;
             }
 
+
+            Console.WriteLine("Usando ForEach: ");
+
+            foreach (var numero in numeros)
+            {
+                Console.WriteLine(numero);
+            }
+
             Console.ReadKey();
 
         }
