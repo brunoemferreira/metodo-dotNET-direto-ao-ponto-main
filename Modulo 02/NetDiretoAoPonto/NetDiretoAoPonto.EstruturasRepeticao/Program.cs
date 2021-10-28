@@ -15,17 +15,11 @@ namespace NetDiretoAoPonto.EstruturasRepeticao
 
             Console.WriteLine("Números: ");
 
-            for (int i =0; i < numeros.Length; i++)
+            for (int i = 0; i < numeros.Length; i++)
             {
                 Console.WriteLine(numeros[i]);
-
+                // 0 1 2 3 4
             }
-
-
-
-
-
-
 
             Console.ReadKey();
 
