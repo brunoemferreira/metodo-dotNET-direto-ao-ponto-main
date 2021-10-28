@@ -21,6 +21,18 @@ namespace NetDiretoAoPonto.EstruturasRepeticao
                 // 0 1 2 3 4
             }
 
+
+            Console.WriteLine("Usando while: ");
+
+            var contador = 0;
+
+            while (contador < numeros.Length)
+            {
+                Console.WriteLine(numeros[contador]);
+
+                contador++;
+            }
+
             Console.ReadKey();
 
         }
